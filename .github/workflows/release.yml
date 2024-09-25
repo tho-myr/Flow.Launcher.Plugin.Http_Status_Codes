@@ -16,10 +16,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 7.0.x
 
@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract release notes
         id: extract-release-notes
-        uses: ffurrer2/extract-release-notes@v1
+        uses: ffurrer2/extract-release-notes@v2
 
       - run: echo '${{ steps.extract-release-notes.outputs.release_notes }}'
 
@@ -50,7 +50,7 @@ jobs:
           7z a -tzip "Flow.Launcher.Plugin.Http_Status_Codes.zip" "./bin/Release/win-x64/publish/*"
 
       - name: Publish
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           body: '${{ steps.extract-release-notes.outputs.release_notes }}'
           files: "Flow.Launcher.Plugin.Http_Status_Codes/Flow.Launcher.Plugin.Http_Status_Codes.zip"
