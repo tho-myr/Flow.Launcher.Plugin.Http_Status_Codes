@@ -1,0 +1,12 @@
+{
+    "ID": "20CA96840A77452B92D83FB3DD01927C",
+    "ActionKeyword": "hs",
+    "Name": "Http Status Codes",
+    "Description": "A plugin to search through http response status codes",
+    "Author": "tho-myr",
+    "Version": "1.0.0-SNAPSHOT",
+    "Language": "csharp",
+    "Website": "https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes",
+    "IcoPath": "icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.Http_Status_Codes.dll"
+}

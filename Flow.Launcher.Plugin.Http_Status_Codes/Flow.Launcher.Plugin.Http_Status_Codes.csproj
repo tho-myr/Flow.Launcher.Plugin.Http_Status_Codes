@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.Http_Status_Codes</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.Http_Status_Codes</PackageId>
+    <Authors>tho-myr</Authors>
+    <PackageProjectUrl>https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <OutputPath>$(UserProfile)\AppData\Roaming\FlowLauncher\Plugins\Http Status Codes-DEBUG\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DebugSymbols>false</DebugSymbols>
+      <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
