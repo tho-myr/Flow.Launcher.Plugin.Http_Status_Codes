@@ -53,7 +53,7 @@ hs <search_query>
 
 #### Prerequisites
 
-- Install dotnet version <=8.x.x from Microsoft [here](https://dotnet.microsoft.com/en-us/download). 
+- Install dotnet version <=7.x.x from Microsoft [here](https://dotnet.microsoft.com/en-us/download). 
 - Install latest version of [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher). (default installation path is recommended for faster testing)
 
 #### Build project
@@ -82,5 +82,13 @@ dotnet build
 
 1. Update [CHANGELOG.md](CHANGELOG.md) for new release.
 2. Update version in [plugin.json](Flow.Launcher.Plugin.Http_Status_Codes/plugin.json)
-3. Create the tag on the `master` branch and build the release.
-4. Follow the steps [here](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest?tab=readme-ov-file#how-to-submit-your-plugin) to submit plugin 
+3. Merge changes into `master` branch
+4. Create the tag `v1.x.x` on the merge commit on the `master` branch and the release will be built by github actions
+5. Follow the steps [here](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest?tab=readme-ov-file#how-to-submit-your-plugin) to submit plugin 
+
+### Inspiration
+
+Love to the developers of the [Shortcuts Plugin](https://github.com/mantasjasikenas/flow-launcher-shortcuts-plugin). 
+I took a lot of inspiration from their plugin and would like to thank them here <3
+
+Thanks for using my plugin or reading through this long-ass readme. love yall (づ ◕‿◕ )づ
