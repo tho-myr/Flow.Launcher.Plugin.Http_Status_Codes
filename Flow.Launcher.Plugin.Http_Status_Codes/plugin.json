@@ -4,7 +4,7 @@
     "Name": "Http Status Codes",
     "Description": "A plugin to search through http response status codes",
     "Author": "tho-myr",
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Language": "csharp",
     "Website": "https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes",
     "IcoPath": "Images\\icon.png",
