@@ -17,7 +17,7 @@ namespace Flow.Launcher.Plugin.Http_Status_Codes
                     Context.API.ShowMsg("Hello World from Http Status Codes Plugin", "This is the query: " + query.Search);
                     return true;
                 },
-                IcoPath = "Images/app.png"
+                IcoPath = "Images/icon.png"
             };
             return new List<Result> { result };
         }

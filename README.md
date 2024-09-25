@@ -57,6 +57,9 @@ hs <search_query>
 
 Run the following command in the root folder of the repository/project.
 
+Exit [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher), build with `dotnet build` 
+and then restart [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher)
+
 ```cmd
 dotnet build
 ```
@@ -71,8 +74,6 @@ dotnet build
 > ```<OutputPath>$(UserProfile)\AppData\Roaming\FlowLauncher\Plugins\Http Status Codes-DEBUG\</OutputPath>```
 >
 > If commented out you have to manually paste the build files from the folder `/Flow.Launcher.Plugin.Http_Status_Codes/bin/Debug` to the plugin folder of your [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) installation.
-
-Restart [Flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) after building and try the plugin ^-^
 
 ### Release plugin
 
