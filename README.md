@@ -7,20 +7,23 @@
 
 
 <div align="center">
-   <div>
-      <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/issues">
-         <img src="https://img.shields.io/github/issues/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub issues">
-      </a>
-      <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/pulls">
-         <img src="https://img.shields.io/github/issues-pr/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub pull requests">
-      </a>
-      <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/actions/workflows/release.yml">
-         <img src="https://img.shields.io/github/actions/workflow/status/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/release.yml?branch=master" alt="GitHub workflow status">
-      </a>
-      <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/commits">
-         <img src="https://img.shields.io/github/last-commit/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub last commit">
-      </a>
-   </div>
+    <div>
+        <a href="https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest">
+            <img src="https://img.shields.io/badge/Flow%20Launcher-Plugin-blue" alt="Flow Launcher Plugin">
+        </a>
+        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/issues">
+            <img src="https://img.shields.io/github/issues/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub issues">
+        </a>
+        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/pulls">
+            <img src="https://img.shields.io/github/issues-pr/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub pull requests">
+        </a>
+        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/actions/workflows/release.yml">
+            <img src="https://img.shields.io/github/actions/workflow/status/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/release.yml?branch=master" alt="GitHub workflow status">
+        </a>
+        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/commits">
+            <img src="https://img.shields.io/github/last-commit/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub last commit">
+        </a>
+    </div>
 </div>
 
 <br>
