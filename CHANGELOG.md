@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [1.1.0] - 2024-xx-xx
+## [1.1.0] - 2024-09-26
 
-- nothing new here yet
+- refactored code
+- optimized search
 
 ## [1.0.0] - 2024-09-25
 
