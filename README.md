@@ -17,11 +17,11 @@
         <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/pulls">
             <img src="https://img.shields.io/github/issues-pr/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub pull requests">
         </a>
-        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/actions/workflows/release.yml">
-            <img src="https://img.shields.io/github/actions/workflow/status/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/release.yml?branch=master" alt="GitHub workflow status">
-        </a>
         <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/commits">
             <img src="https://img.shields.io/github/last-commit/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes" alt="GitHub last commit">
+        </a>
+        <a href="https://github.com/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/releases">
+            <img src="https://img.shields.io/github/downloads/tho-myr/Flow.Launcher.Plugin.Http_Status_Codes/total" alt="Total Downloads">
         </a>
     </div>
 </div>
